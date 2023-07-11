@@ -14,4 +14,4 @@ The MobileNet_V3 model was loaded from the torchvision.modules subpackage along 
 learning. The model parameters were not frozen meaning all parameters could be updated during training. The output of the final linear layer of each model was modified to be compatible with the number of classes in the dataset. Cross entropy loss was
 chosen as the loss function along the Adam optimizer and its default learning rate of 0.001.
 
-The best model was identified at the end of epoch 6.  The Model achieved an overall accuracy of 75% and a macro averaged f1-score of 0.66 with individual class accuracies varying from 54% to 96%.
+The best model was identified at the end of epoch 5.  The Model achieved a macro averaged f1-score of 0.66 with individual class accuracies varying from 54% to 96%.
